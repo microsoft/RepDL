@@ -5,7 +5,7 @@ from typing import Optional
 
 import torch
 
-from .. import ops
+from repdl import ops
 
 
 class LinearFunction(torch.autograd.Function):
