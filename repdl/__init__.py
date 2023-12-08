@@ -5,11 +5,11 @@ from copy import copy
 
 import torch
 
-from . import functional
-from . import nn
-from . import ops
-from . import optim
-from . import utils
+import repdl.func
+import repdl.nn
+import repdl.ops
+import repdl.optim
+import repdl.utils
 
 
 def from_torch_module(m: torch.nn.Module) -> torch.nn.Module:

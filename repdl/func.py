@@ -5,7 +5,7 @@ from typing import Optional
 
 import torch
 
-from . import ops
+import repdl.ops as ops
 
 
 class ExpandFunction(torch.autograd.Function):

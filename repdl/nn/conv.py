@@ -5,7 +5,7 @@ from typing import Optional, Union
 
 import torch
 
-from .. import ops
+from repdl import ops
 
 
 class Conv2dFunction(torch.autograd.Function):
