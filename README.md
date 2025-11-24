@@ -4,18 +4,6 @@
 
 RepDL is a specialized library designed to facilitate reproducible deep learning by guaranteeing **bitwise identical outcomes across various hardware platforms** for identical training or inference tasks.
 
-Citation:
-
-```
-@misc{xie_repdl_2025,
-	title = {{RepDL}: {Bit}-level {Reproducible} {Deep} {Learning} {Training} and {Inference}},
-	url = {https://arxiv.org/abs/2510.09180},
-	author = {Xie, Peichen and Zhang, Xian and Chen, Shuo},
-	year = {2025},
-	note = {arXiv: 2510.09180},
-}
-```
-
 ## Get Started
 
 Before setting up RepDL, ensure that PyTorch and the corresponding CUDA version are installed on your system.  
