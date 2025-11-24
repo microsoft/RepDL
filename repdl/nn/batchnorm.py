@@ -5,8 +5,8 @@ from typing import Optional
 
 import torch
 
-from .. import ops
-from .. import func
+from repdl import ops
+from repdl import func
 
 
 class BatchNormFunction(torch.autograd.Function):
