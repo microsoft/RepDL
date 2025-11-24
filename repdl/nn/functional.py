@@ -1,7 +1,7 @@
 # Copyright (c) Microsoft Corporation. 
 # Licensed under the MIT license.
 
-from repdl.nn.batchnorm import batch_norm
-from repdl.nn.conv import conv2d
-from repdl.nn.linear import linear
-from repdl.nn.loss import cross_entropy
+from .batchnorm import batch_norm
+from .conv import conv2d
+from .linear import linear
+from .loss import cross_entropy

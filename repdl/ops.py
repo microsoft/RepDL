@@ -5,8 +5,8 @@ from typing import Union
 
 import torch
 
-from repdl.backend import cpu
-from repdl.backend import cuda
+from .backend import cpu
+from .backend import cuda
 
 
 def conv2d(
