@@ -5,7 +5,7 @@ from copy import copy
 
 import torch
 
-from . import functional
+from . import func
 from . import nn
 from . import ops
 from . import optim
