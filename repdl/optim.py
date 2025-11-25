@@ -5,7 +5,7 @@ import math
 
 import torch
 
-from repdl import ops
+from . import ops
 
 
 class Adam(torch.optim.Adam):

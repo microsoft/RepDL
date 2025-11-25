@@ -5,7 +5,7 @@ from typing import Optional
 
 import torch
 
-from repdl import ops
+from .. import ops
 
 
 class CrossEntropyFunction(torch.autograd.Function):
